@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:#555;
+    color:#fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+
+}
+.display-4{
+    text-align:center;
+    width:100%;
+    color:skyblue;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+#book-form{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+input{
+    margin-top: 20px;
+    padding: 0.7rem 1rem;
+    margin:.3rem;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size:20px;
+    
+}
+input:focus{
+    border: 1px solid blue;
+}
+label{
+    text-transform: capitalize;
+    margin-right: 20px;
+    font-size: 24px
+}
+.btn{
+    color: #fff;
+    background:skyblue;
+    padding: 0.8rem .9rem;
+    margin-top:20px;
+}
+table{
+    border: 2px solid skyblue;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+}
+table thead{
+ text-decoration: underline;
+ text-transform: uppercase;
+ margin-bottom: 10px;
+ font-size: 1.4rem;
+ letter-spacing: 1px;
+}
+table tbody{
+    text-transform: capitalize;
+
+}
+table tbody tr:nth-child(even){
+    background: lightgray;
+    border-collapse: separate;
+}
+table tbody tr:nth-child(odd){
+    background: rgb(241, 155, 155);
+    border-collapse: separate;
+}
+table tbody tr td .delete{
+    border-collapse:none;
+}
+.delete{
+    background:red;
+    padding: .2rem .4rem;
+    color: #fff;
+    /* margin: auto; */
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.alert-danger{
+    background:red;
+    color: #fff;
+    padding: .8rem 1.2rem;
+    width: 60%;
+    text-align: center;
+    text-transform: capitalize;
+    margin: auto;
+    font-size: 1.4rem;
+
+}
+.alert-success{
+    background:green;
+    color: #fff;
+    padding: .8rem 1.2rem;
+    width: 60%;
+    text-align: center;
+    text-transform: capitalize;
+    margin: auto;
+    font-size: 1.4rem;
+
+}
